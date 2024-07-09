@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #myDiagramDiv {
+    margin: 20px;
+  }
+  
+  #exportButton {
+    margin: 20px;
+  }
+  

@@ -1,0 +1,23 @@
+{
+    "class": "GraphLinksModel",
+    "nodeDataArray": [
+      { "key": 1, "text": "Start", "figure": "Circle", "color": "lightblue" },
+      { "key": 2, "text": "Mix flour and milk", "figure": "RoundedRectangle", "color": "lightgreen" },
+      { "key": 3, "text": "Add eggs", "figure": "RoundedRectangle", "color": "lightgreen" },
+      { "key": 4, "text": "Stir well", "figure": "RoundedRectangle", "color": "lightgreen" },
+      { "key": 5, "text": "Heat a pan", "figure": "RoundedRectangle", "color": "lightgreen" },
+      { "key": 6, "text": "Pour batter", "figure": "RoundedRectangle", "color": "lightgreen" },
+      { "key": 7, "text": "Flip pancake", "figure": "RoundedRectangle", "color": "lightgreen" },
+      { "key": 8, "text": "Serve hot", "figure": "RoundedRectangle", "color": "lightgreen" }
+    ],
+    "linkDataArray": [
+      { "from": 1, "to": 2, "text": "Start mixing process" },
+      { "from": 2, "to": 3, "text": "Add eggs after mixing" },
+      { "from": 3, "to": 4, "text": "Stir well after adding eggs" },
+      { "from": 4, "to": 5, "text": "Heat a pan after stirring" },
+      { "from": 5, "to": 6, "text": "Pour batter into the pan" },
+      { "from": 6, "to": 7, "text": "Flip pancake when ready" },
+      { "from": 7, "to": 8, "text": "Serve hot after flipping" }
+    ]
+  }
+  

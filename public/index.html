@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoJS Flowchart</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gojs/2.1.52/go.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <div id="myDiagramDiv" style="width: 800px; height: 600px; border: 1px solid black;"></div>
+  <button id="exportButton">Export to JSON</button>
+  <pre id="jsonOutput"></pre>
+
+  <form id="uploadForm">
+    <input type="file" id="fileInput" name="file" accept=".json" />
+    <button type="submit">Upload JSON</button>
+  </form>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

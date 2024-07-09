@@ -1,0 +1,16 @@
+{
+  "nodeDataArray": [
+    { "key": 1, "text": "Start", "color": "lightblue" },
+    { "key": 2, "text": "Prepare Ingredients", "color": "lightgreen" },
+    { "key": 3, "text": "Cook", "color": "lightcoral" },
+    { "key": 4, "text": "Serve", "color": "lightyellow" },
+    { "key": 5, "text": "Eat", "color": "lightskyblue" }
+  ],
+  "linkDataArray": [
+    { "from": 1, "to": 2 },
+    { "from": 2, "to": 3 },
+    { "from": 3, "to": 4 },
+    { "from": 4, "to": 5 },
+    { "from": 5, "to": 1 }
+  ]
+}
